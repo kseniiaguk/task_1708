@@ -1,0 +1,36 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+div {
+    border: 1px solid black;
+}
+.container {
+    padding: 10px;
+    display: flex;
+    margin: 40px 30px;
+    justify-content: space-between;
+    max-width: min-content;
+    max-height: min-content;   
+}
+.inter-div {
+    padding: 20px 30px;
+    text-align: center;
+    margin: auto 20px;
+}
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+    .inter-div {
+        margin: 0 25px;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+    .inter-div {
+        margin: 25px 0;
+    }
+}

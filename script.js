@@ -24,7 +24,7 @@ function insertTranslation(jsonArg) {
     for (let i = 0; i < engWordsArr.length ; i ++) {
         let enPath = stringsMap.get(engWordsArr[i]),
             variablePath = jsonArg;
-        for (let j = 0; j < -- enPath.length; j ++) {
+        for (let j = 0; j < enPath.length - 1; j ++) {
             variablePath = variablePath[enPath[j]]
         }
         variablePath.ru = translationsArr[i] 

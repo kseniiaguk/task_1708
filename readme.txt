@@ -1,3 +1,8 @@
+0. Текст тестового:
+https://drive.google.com/file/d/1jY5irwrIxqoR4MmghC2PqSskGinktoar/view?usp=sharing
+
+1. О решении:
+
 1.1. Функция перевода текстовых свойств в сложной JSON модели.
 
 В файле script.js реализована функция перевода -- insertTranslation(jsonArg).
